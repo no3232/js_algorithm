@@ -1,0 +1,18 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "프로그램 시작",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "program": "${workspaceFolder}/BAEKJOON/Class3/1012.js",
+      "env": {
+        "DEBUG": "true"
+      },
+      "cwd": "${workspaceFolder}/BAEKJOON/Class3" // 현재 작업 디렉토리 설정
+    }
+  ]
+}
